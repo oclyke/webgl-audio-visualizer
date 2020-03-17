@@ -1,0 +1,41 @@
+/* The settings following are intended to make the app fit the viewport perfectly no matter the size */
+
+/* override browser default */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* use viewport-relative units to cover page fully */
+/* this stretches the <body> element to full size so that 
+   child elements can use relative width/height */
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* make sure the React root element is stretched to fill it's parent */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
