@@ -34,5 +34,6 @@
   },
   "devDependencies": {
     "styled-components": "^5.0.1"
-  }
+  },
+  "homepage": "customlitt_webgl"
 }
